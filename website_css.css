@@ -26,6 +26,8 @@ body {
     
     background-image:url("./white_topographic.jfif");
     background-size:cover;
+    margin: 0px;
+    overflow:hidden;
 }
 footer{
     bottom:0;
