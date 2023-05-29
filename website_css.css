@@ -35,9 +35,10 @@ footer{
     height:60px;
     position:absolute;
     display:block;
-    text-align: center;
+    text-align: left;
     font-family: Georgia, serif;
     padding: 3px;
+    padding-left: 20px;
     background-color: #556b2f;
     color: white;
     
