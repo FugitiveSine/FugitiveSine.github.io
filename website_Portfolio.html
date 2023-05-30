@@ -23,19 +23,50 @@
             background-color:white;
         }
         .school_Projects{
-            
             float:right;
-            padding-right:40px;
-            margin-right:40px;
-            display:block;
-            border:1px solid;
-            background-color: #E8E8E2;
-            text-align:left;
+            margin-right:30px;
+
+        }
+        .school_Projects ul{
             
         }
+        .school_Projects ul li{
+            float:left;
+            position:relative;
+        }
+        .school_Projects ul li a{
+            padding: 2px 14px;
+            display:block;
+            background-color: white;
+            
+        }
+        .school_Projects ul li ul{
+            display:none;
+            position:absolute;
+            background-color: white;
+            padding: 10px;
+            border-radius: 0px 0px 4px 4px;
+        }
+        .school_Projects ul li:hover ul {
+            display:block;
+        }
+        .school_Projects ul li ul li{
+            width: auto;
+            border-radius: 4px;
+        }
+        .school_Projects ul li ul li a{
+            padding: 8px 14px;
+        }
+        .school_Projects ul li ul li a:hover{
+            background-color: #f3f3f3;
+        }
+
+       
         .table_class{
             display:inline-block;
         }
+
+        
        
         
         
@@ -102,8 +133,14 @@
     </div>
     <div class="school_Projects">
         <ul>
-            <li><p>Hello</p></li>
-            <li><p>Hey</p></li>
+            <li><a href="#" >Dropdown </a>
+                <ul>
+                    <li><a href="#">hello1</a></li>
+                    <li><a href="#">hello2</a></li>
+                    <li><a href="#">hello3</a></li>
+                </ul>
+            </li>
+            
 
         </ul>
         
