@@ -5,6 +5,23 @@
     <link rel="stylesheet" href="website_css.css"/>
     <script src="https://kit.fontawesome.com/f6bbc182f9.js" crossorigin="anonymous"></script>
     <style>
+        .contact_row{
+            background-color: #f7f7f7;
+            border-color:bisque;
+            border-style:groove;
+            width:fit-content;
+            max-width: 60%;
+            /*overflow:auto; allows scroll i think */
+            padding: 50px;
+            position:relative;
+            margin:auto;
+        }
+        .content_wrapper{
+            display:flex;
+            align-items:flex-start;
+            width:fit-content;
+            gap:40px;
+        }
         
     </style>
     <meta charset="UTF-8">
@@ -21,10 +38,16 @@
             <li><a href="website_Contact.html">Contact</a></li>
         </ul>
     </nav>
-    <p>Email: henrytimmons2004@gmail.com</p>
-    
+    <main>
+        <div class="contact_row">
+            <div class="content_wrapper">
+                <p style="font-size: 20px;">
+                    Email: henrytimmons2004@gmail.com
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer id="footerContainer"></footer>
 </body>
-<footer>
-    <script>footerContent();</script>
-</footer>
 </html>
